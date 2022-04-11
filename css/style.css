@@ -1,0 +1,58 @@
+@counter-style thumbs {
+    system: cyclic;
+    symbols: "\1F44D";
+    suffix: " ";
+  }
+  
+  ul {
+     list-style: thumbs;
+  }
+  
+.space-fusee {
+    padding-left: 2rem;
+    list-style-type: none;
+}  
+
+.space-fusee li {
+    padding-left: 2rem;
+    background-image: url(fusee.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+.boite {
+    text-decoration: underline;
+}
+
+
+a:hover {
+    background-color:red;
+    text-decoration: none;
+}
+
+
+div.btn.btn-primary {
+    height:100%;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+@media (max-width: 680px) {
+    .container-fluid {
+      display: flex;
+      flex-direction: column;
+    }
+}
+  
+
+
+
+
