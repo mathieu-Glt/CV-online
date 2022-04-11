@@ -24,11 +24,19 @@
 .boite {
     text-decoration: underline;
 }
-
-
-a:hover {
-    background-color:red;
+p a {
     text-decoration: none;
+}
+
+div a {
+    text-decoration: none;
+}
+
+p a:hover {
+    color: orangered;
+}
+div a:hover {
+    color: rgb(0, 136, 255);
 }
 
 
